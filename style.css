@@ -1,0 +1,437 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet);
+
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+
+body {
+
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding: 0px 120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticy;
+    top: 0;
+
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+    margin-left: 34px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#bar {
+    display: none;
+}
+
+#crt {
+    display: none;
+}
+
+.barStyle {
+    font-size: 30px;
+}
+
+main {
+    margin-top: 50px;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hlafWidth h1 {
+    font-size: 52px;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    line-height: 70px;
+    color: #3a3a3a;
+    margin-bottom: 0px;
+}
+
+.bannerDes {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.btn {
+    background-color: #E02C6D;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3a3a3a;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.hlafWidth {
+    width: 50%;
+}
+
+.half-right {
+    display: flex;
+    justify-content: end;
+}
+
+.half-right img {
+    width: 80%;
+}
+
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 0px;
+}
+
+.logoIMG {
+    margin-left: 61px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoIMG img {
+    Width: 100%
+}
+
+hr {
+    color: #C0CCDA;
+    background-color: #C0CCDA;
+    height: 1px;
+    border: none;
+    opacity: 30%;
+}
+
+.proDetails {
+    margin-top: 110px;
+}
+
+.collection {
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    color: #3a3a3a;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    /* height: 380px; */
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.151);
+    padding: 15px;
+    margin: 15px;
+}
+
+.card h2 {
+    font-size: 28px;
+    font-family: "Poppins", serif;
+    color: #18191F;
+    font-weight: 500;
+    margin: 9px 0px;
+}
+
+.price {
+    font-size: 24px;
+    font-family: "Inter", serif;
+    margin: 0;
+    color: #000000
+}
+
+.rating {
+    font-size: 12px;
+    font-family: "Inter", serif;
+    color: #FB8200;
+}
+
+span.rate {
+    color: #787885;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cardImg {
+    border-radius: 5px;
+}
+
+
+
+.cardDes {
+    font-size: 14px;
+    font-family: "Inter", serif;
+    color: #787885;
+    font-weight: 600;
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+}
+
+
+
+
+
+
+.cardImg img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.cardParent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.more {
+    display: flex;
+    justify-content: end;
+}
+
+.btn-more {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+    background: none;
+    color: #E02C6D;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.featured {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.fdetails {
+    padding: 20px;
+
+}
+
+.fdetails h1 {
+    font-size: 38px;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    color: #0A0826;
+    margin: 0px;
+}
+
+.fdetails p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6C6C6C;
+}
+
+footer {
+    background-color: #0A0826;
+    color: #ffffff;
+    text-align: center;
+}
+
+.f-content {
+    padding: 50px 0px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+footer p {
+    font-family: "Manrope", serif;
+    font-size: 14px;
+}
+
+footer ul {
+    margin-top: 20px;
+    color: #ffffff;
+    list-style: none;
+    padding: 0px;
+
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+footer li i {
+    font-size: 22px;
+}
+
+footer li a {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .container {
+        padding: 0px 40px;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    .cardParent {
+        grid-template-columns: auto auto;
+    }
+
+    .featured {
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .fdetails h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    .half-right img {
+        width: 80%;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .hlafWidth {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hlafWidth h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .half-right {
+        justify-content: Center;
+    }
+
+    .half-right img {
+        width: 70%;
+    }
+
+    .logoIMG {
+        margin: 10px;
+    }
+
+    .more {
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: row-reverse;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    #bar,
+    #crt {
+        display: block;
+    }
+
+    .bannerDes {
+        font-size: 14px;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    .cardParent {
+        grid-template-columns: auto;
+    }
+
+    .cardParent {
+        justify-content: center;
+    }
+
+    .featured {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fdetails {
+        text-align: center;
+    }
+
+    .collection {
+        font-size: 16px;
+    }
+
+    .proDetails {
+        margin-top: 20px;
+    }
+
+    .featured {
+        margin-top: 15px;
+
+    }
+
+    main {
+        margin-bottom: 45px;
+
+    }
+
+    .banner {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0px 10px;
+    }
+}
