@@ -5,7 +5,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
 
 body {
-
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -23,10 +22,9 @@ header {
     align-items: center;
     position: sticy;
     top: 0;
-
-
 }
 
+/* Navigation starts here */
 .nav a {
     text-decoration: none;
     color: #3a3a3a;
@@ -52,6 +50,8 @@ main {
     margin-top: 50px;
 
 }
+
+/* Banner starts here */
 
 .banner {
     display: flex;
@@ -102,6 +102,8 @@ main {
 }
 
 
+/* Brans Logo starts here */
+
 .brand-logo {
     display: flex;
     justify-content: center;
@@ -130,6 +132,9 @@ hr {
     opacity: 30%;
 }
 
+
+/* Product deatils starts here */
+
 .proDetails {
     margin-top: 110px;
 }
@@ -144,8 +149,6 @@ hr {
 }
 
 .card {
-    /* height: 380px; */
-
     background-color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.151);
@@ -184,8 +187,6 @@ span.rate {
     border-radius: 5px;
 }
 
-
-
 .cardDes {
     font-size: 14px;
     font-family: "Inter", serif;
@@ -196,17 +197,10 @@ span.rate {
     line-height: 20px;
 }
 
-
-
-
-
-
 .cardImg img {
     width: 100%;
     height: auto;
 }
-
-
 
 .cardParent {
     display: grid;
@@ -231,6 +225,9 @@ span.rate {
 main {
     margin-bottom: 100px;
 }
+
+
+/* Featured Image starts here */
 
 .featured {
     margin-top: 100px;
@@ -259,6 +256,8 @@ main {
     font-weight: 600;
     color: #6C6C6C;
 }
+
+/* Footer starts here */
 
 footer {
     background-color: #0A0826;
@@ -302,6 +301,8 @@ footer li i {
 footer li a {
     color: #ffffff;
 }
+
+/* Responsiveness Starts here */
 
 @media only screen and (max-width: 1024px) {
 
